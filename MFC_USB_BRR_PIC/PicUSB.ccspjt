@@ -1,0 +1,84 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=4
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=PicUSB.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCH
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=PicUSB.c
+
+[PicUSB.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=PicUSB.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[ProjectLog]
+Days=1
+D1=23-06-2023
+D1_L=5
+D1_L1=[36621]Project Closed.
+D1_L2=[36621]Project Opened.
+D1_L3=[36830]Started Editing.
+D1_L4=[37150]Stopped Editing.
+TotalEdit=6
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L5=[37150]Project Closed.
+
+[Opened Files]
+1=PicUSB.c
+t1=89
+Count=1
+2=
+3=
+[Units]
+Count=1
+1=PicUSB (main)
